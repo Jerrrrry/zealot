@@ -21,17 +21,11 @@
     </head>
     <body>
         @component('components.loading')@endcomponent
-        <!-- Background Pattern Swither -->
-        <div id="pattern-switcher">
-            Bg Pattern
-        </div>
-        <div id="patter-close">
-            <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
         @component('components.topheader')@endcomponent
         @component('components.header')@endcomponent
             
         @yield('content')
+        @component('components.footer')@endcomponent
         <!-- Jquery-2.2.4 js -->
         <script src="/js/jquery/jquery-2.2.4.min.js"></script>
         <!-- Popper js -->
