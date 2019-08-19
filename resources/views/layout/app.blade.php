@@ -14,5 +14,6 @@
             
             @yield('content')
         </div>
+        <script src="/js/bulma.js"></script>
     </body>
 </html>
