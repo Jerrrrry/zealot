@@ -4,7 +4,7 @@
                 <!-- Logo Area Start -->
                 <div class="col-12">
                     <div class="logo_area text-center">
-                        <a href="index.html" class="yummy-logo">Yummy Blog</a>
+                        <a href="/" class="yummy-logo">Cannabis Zealot</a>
                     </div>
                 </div>
             </div>
