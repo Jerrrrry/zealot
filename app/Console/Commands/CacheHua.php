@@ -44,7 +44,7 @@ class CacheHua extends Command
         {
             if($file!=='sample.json'&&$file!=='.'&&$file!=='..')
             {
-                $name=xplode('.',$file)[0];
+                $name=explode('.',$file)[0];
                 $results[]=array(
                     'name'=>$name,
                     'data'=>json_decode(file_get_contents("/var/www/html/zealot/public/marijuana/lists/$file"),true)
