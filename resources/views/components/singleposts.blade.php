@@ -26,7 +26,7 @@
                 </div>
             </div>
             <a href="#">
-                <h4 class="post-headline">{{$m['data']['Name']}} : {{$name['data']['Info']}}</h4>
+                <h4 class="post-headline">{{$m['data']['Name']}} : {{$m['data']['Info']}}</h4>
             </a>
         </div>
     </div>
