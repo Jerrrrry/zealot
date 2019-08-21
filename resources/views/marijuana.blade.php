@@ -79,7 +79,7 @@
                                     <h3>Flowering : {{$marijuana['data']['Flowering']}}</h3> 
                                     <h3>Harvest : {{$marijuana['data']['Harvest']}}</h3> 
                                     @foreach($marijuana['data']['Contents'] as $content)
-                                        <p>{{$content}}</p>
+                                        <h5>{{$content}}</h5>
                                     @endforeach
                 
                                 </div>
