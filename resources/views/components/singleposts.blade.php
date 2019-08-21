@@ -1,5 +1,5 @@
 @foreach ($ms as $m)
-<div class="col-12 col-md-4">
+<div class="col-12 col-md-3">
     <div class="single-post wow fadeInUp" data-wow-delay=".8s">
         <!-- Post Thumb -->
         <div class="post-thumb">
