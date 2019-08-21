@@ -52,7 +52,7 @@
                             <div class="single-post wow fadeInUp" data-wow-delay=".2s">
                                 <!-- Post Thumb -->
                                 <div class="post-thumb">
-                                    <img src="img/blog-img/1.jpg" alt="">
+                                    <img src="img/blog-img/topnews.jpg" alt="">
                                 </div>
                                 <!-- Post Content -->
                                 <div class="post-content">
@@ -60,11 +60,11 @@
                                         <div class="post-author-date-area d-flex">
                                             <!-- Post Author -->
                                             <div class="post-author">
-                                                <a href="#">By Marian</a>
+                                                <a href="#">By Jimi Devine</a>
                                             </div>
                                             <!-- Post Date -->
                                             <div class="post-date">
-                                                <a href="#">May 19, 2017</a>
+                                                <a href="#">August 14, 2019</a>
                                             </div>
                                         </div>
                                         <!-- Post Comment & Share Area -->
@@ -84,10 +84,10 @@
                                         </div>
                                     </div>
                                     <a href="#">
-                                        <h2 class="post-headline">Boil The Kettle And Make A Cup Of Tea Folks, This Is Going To Be A Big One!</h2>
+                                        <h2 class="post-headline">California’s Underground Market Is Nearly 3 Times Larger Than Legal Market</h2>
                                     </a>
-                                    <p>Tiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat.</p>
-                                    <a href="#" class="read-more">Continue Reading..</a>
+                                    <p>A new report details the highs and lows of California’s cannabis industry since the state launched its adult-use regulations on Jan. 1, 2018.</p>
+                                    <a href="https://cannabisnow.com/californias-underground-market-is-nearly-3-times-larger-than-legal-market/" class="read-more">Continue Reading..</a>
                                 </div>
                             </div>
                         </div>
