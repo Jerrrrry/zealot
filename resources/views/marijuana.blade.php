@@ -78,6 +78,10 @@
                                     <h3>Genetics : {{$marijuana['data']['Genetics']}}</h3> 
                                     <h3>Flowering : {{$marijuana['data']['Flowering']}}</h3> 
                                     <h3>Harvest : {{$marijuana['data']['Harvest']}}</h3> 
+                                    <blockquote class="yummy-blockquote mt-30 mb-30">
+                                        <h5 class="mb-30">“The Hardest Choices Require the Strongest Wills”</h5>
+                                        <h6 class="text-muted">Thanos</h6>
+                                    </blockquote>
                                     @foreach($marijuana['data']['Contents'] as $content)
                                         <p>{{$content}}</p>
                                     @endforeach
