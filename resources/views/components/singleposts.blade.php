@@ -1,5 +1,5 @@
 @foreach ($ms as $m)
-<div class="col-12 col-md-6">
+<div class="col-12 col-md-4">
     <div class="single-post wow fadeInUp" data-wow-delay=".8s">
         <!-- Post Thumb -->
         <div class="post-thumb">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <a href="#">
-                <h4 class="post-headline">{{$m['data']['Name']}} : {{$m['data']['Info']}}</h4>
+                <h4 class="post-headline">{{$m['data']['Name']}}</h4>
             </a>
         </div>
     </div>
