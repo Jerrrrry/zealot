@@ -72,12 +72,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <h3>Type : {{$marijuana['data']['Type']}}</h3> 
-                                    <h3>{{$marijuana['data']['Info']}}</h3> 
-                                    <h3>Origins : {{$marijuana['data']['Origins']}}</h3> 
-                                    <h3>Genetics : {{$marijuana['data']['Genetics']}}</h3> 
-                                    <h3>Flowering : {{$marijuana['data']['Flowering']}}</h3> 
-                                    <h3>Harvest : {{$marijuana['data']['Harvest']}}</h3> 
+                                    <h4>Type : {{$marijuana['data']['Type']}}</h4> 
+                                    <h4>{{$marijuana['data']['Info']}}</h4> 
+                                    <h4>Origins : {{$marijuana['data']['Origins']}}</h4> 
+                                    <h4>Genetics : {{$marijuana['data']['Genetics']}}</h4> 
+                                    <h4>Flowering : {{$marijuana['data']['Flowering']}}</h4> 
+                                    <h4>Harvest : {{$marijuana['data']['Harvest']}}</h4> 
                                     <blockquote class="yummy-blockquote mt-30 mb-30">
                                         <h5 class="mb-30">“The Hardest Choices Require the Strongest Wills”</h5>
                                         <h6 class="text-muted">Thanos</h6>
