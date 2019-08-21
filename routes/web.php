@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'HomeController@home');
+Route::get('/marijuana-data/{name}', 'HuaController@hua');
