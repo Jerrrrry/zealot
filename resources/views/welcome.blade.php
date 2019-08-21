@@ -7,30 +7,30 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single_catagory wow fadeInUp" data-wow-delay=".3s">
-                        <img src="img/catagory-img/1.jpg" alt="">
+                        <img src="img/catagory-img/indica.jpg" alt="">
                         <div class="catagory-title">
                             <a href="#">
-                                <h5>Food</h5>
+                                <h5>Indica</h5>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single_catagory wow fadeInUp" data-wow-delay=".6s">
-                        <img src="img/catagory-img/2.jpg" alt="">
+                        <img src="img/catagory-img/savita.jpg" alt="">
                         <div class="catagory-title">
                             <a href="#">
-                                <h5>Cooking</h5>
+                                <h5>Savita</h5>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single_catagory wow fadeInUp" data-wow-delay=".9s">
-                        <img src="img/catagory-img/3.jpg" alt="">
+                        <img src="img/catagory-img/hybrid.jpg" alt="">
                         <div class="catagory-title">
                             <a href="#">
-                                <h5>Life Style</h5>
+                                <h5>Hybrid</h5>
                             </a>
                         </div>
                     </div>
