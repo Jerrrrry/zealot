@@ -91,7 +91,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        @component('components.singleposts',['ms' => $ms])@endcomponent
                         <!-- Single Post -->
                         <div class="col-12 col-md-6">
                             <div class="single-post wow fadeInUp" data-wow-delay=".4s">

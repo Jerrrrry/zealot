@@ -14,7 +14,10 @@ class HomeController extends Controller
         {
             if($file!=='sample.json'&&$file!=='.'&&$file!=='..')
             {
-                $results[]=json_decode(file_get_contents("/var/www/html/zealot/public/marijuana/lists/$file"),true);
+                $results[]=array(
+                    'name'=>explode('.',$file)[0],
+                    'data'=>json_decode(file_get_contents("/var/www/html/zealot/public/marijuana/lists/$file"),true)
+                );
             }
         }
         
