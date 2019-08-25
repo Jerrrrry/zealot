@@ -3,7 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use Spatie\Sitemap\SitemapGenerator;
+use \Spatie\Sitemap\SitemapGenerator;
 
 
 class Sitemap extends Command
