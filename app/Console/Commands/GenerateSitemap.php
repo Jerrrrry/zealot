@@ -9,7 +9,7 @@ use Spatie\Sitemap\Tags\Url;
 use Cache;
 
 
-class Sitemap extends Command
+class GenerateSitemap extends Command
 {
     /**
      * The name and signature of the console command.
