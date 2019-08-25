@@ -47,10 +47,11 @@ class Sitemap extends Command
         $huas=Cache::get('all-huas');
         foreach($huas as $hua)
         {
-            $site ->add(Url::create('/marijuana/'.$hua['name'])
+            $site ->add(Url::create('/marijuana-data/'.$hua['name'])
             ->setLastModificationDate(Carbon::yesterday())
             ->setChangeFrequency(Url::CHANGE_FREQUENCY_YEARLY)
             ->setPriority(0.8));
+            $this->info($hua['name']);
         }
         $site->writeToFile('/var/www/html/zealot/public/sitemap.xml');
     }
