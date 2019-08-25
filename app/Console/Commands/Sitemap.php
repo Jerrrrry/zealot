@@ -3,7 +3,6 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use \Spatie\Sitemap\SitemapGenerator;
 use Carbon\Carbon;
 use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\Tags\Url;
