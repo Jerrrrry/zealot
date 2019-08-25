@@ -4,6 +4,10 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use \Spatie\Sitemap\SitemapGenerator;
+use Carbon\Carbon;
+use Spatie\Sitemap\Sitemap;
+use Spatie\Sitemap\Tags\Url;
+use Cache;
 
 
 class Sitemap extends Command
@@ -39,6 +43,15 @@ class Sitemap extends Command
      */
     public function handle()
     {
-        SitemapGenerator::create('https://cannabiszealot.com')->writeToFile('/var/www/html/zealot/public/sitemap.xml');
+        $site=Sitemap::create('https://cannabiszealot.com');
+        $huas=Cache::get('all-huas');
+        foreach($huas as $hua)
+        {
+            $site ->add(Url::create('/marijuana/'.$hua['name'])
+            ->setLastModificationDate(Carbon::yesterday())
+            ->setChangeFrequency(Url::CHANGE_FREQUENCY_YEARLY)
+            ->setPriority(0.8));
+        }
+        $site->writeToFile('/var/www/html/zealot/public/sitemap.xml');
     }
 }
