@@ -46,9 +46,9 @@ class GenerateSitemap extends Command
         $huas=Cache::get('all-huas');
         foreach($huas as $hua)
         {
-            $site ->add(Url::create('/marijuana-data/'.$hua['name'])
-            ->setLastModificationDate(Carbon::yesterday())
-            ->setChangeFrequency(Url::CHANGE_FREQUENCY_YEARLY)
+            $site ->add(Url::create('https://www.cannabiszealot.com/marijuana-data/'.$hua['name'])
+            ->setLastModificationDate(Carbon::now())
+            ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
             ->setPriority(0.8));
             $this->info($hua['name']);
         }
