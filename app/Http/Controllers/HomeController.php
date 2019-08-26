@@ -9,6 +9,6 @@ class HomeController extends Controller
 {
     public function home()
     { 
-        return view('welcome',['ms' => Cache::get("all-huas")]);
+        return view('welcome',['ms' => Cache::get("all-huas"),'top-huas'=>Cache::get("top-huas")]);
     }
 }
