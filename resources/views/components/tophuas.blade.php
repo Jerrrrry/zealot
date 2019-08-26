@@ -10,7 +10,6 @@
         </a>
         <p>{{$hua['data']['Type']}}</p>
         <p>{{$hua['data']['Info']}}</p>
-        <p>{{$hua['data']['Origins']}}</p>
     </div>
 </div>
 @endforeach
