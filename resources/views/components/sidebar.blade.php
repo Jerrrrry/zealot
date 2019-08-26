@@ -27,6 +27,13 @@
                             </div>
                         </div>
 
+                        <div class="single-widget-area popular-post-widget">
+                            <div class="widget-title text-center">
+                                <h6>Latest Marijuana News</h6>
+                            </div>
+                            @component('components.topnews')@endcomponent
+                        </div>
+
                         <!-- Single Widget Area -->
                         <div class="single-widget-area popular-post-widget">
                             <div class="widget-title text-center">
@@ -34,6 +41,8 @@
                             </div>
                             @component('components.tophuas')@endcomponent
                         </div>
+
+                        
 
                         <!-- Single Widget Area -->
                         <div class="single-widget-area add-widget text-center">

@@ -1,0 +1,12 @@
+@foreach (Cache::get('topmjarticles') as $article)
+<!-- Single Popular Post -->
+<div class="single-populer-post d-flex">
+        <img src="{{$article['urlToImage']}}" alt="">
+
+    <div class="post-content">
+        <a href="{{$article['url']}}">
+            <h6>{{$article['title']}}</h6>
+        </a>
+    </div>
+</div>
+@endforeach
