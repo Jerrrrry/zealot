@@ -204,6 +204,10 @@
                                 </div>
                             </div>
 
+                            <div class="related-post-area">
+                                <img src="/img/ad-img/sbbanner.jpg"> 
+                            </div>
+
                         </div>
                     </div>
                 </div>
