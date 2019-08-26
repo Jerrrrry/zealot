@@ -39,6 +39,6 @@ class Tophuas extends Command
     public function handle()
     {
         $huas=Cache::has('all-huas')?Cache::get('all-huas'):[];
-        $this->info(count(array_rand($huas, 10)));
+        Cache::forever('top-huas',array_rand($huas, 10));
     }
 }
