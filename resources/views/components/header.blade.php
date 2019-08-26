@@ -20,19 +20,17 @@
                                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="yummyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                    <a class="nav-link dropdown-toggle" href="#" id="yummyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marijuana Types</a>
                                     <div class="dropdown-menu" aria-labelledby="yummyDropdown">
-                                        <a class="dropdown-item" href="/">Home</a>
-                                        <a class="dropdown-item" href="/news">Marijuana News</a>
-                                        <a class="dropdown-item" href="single.html">Marijuana Types</a>
+                                        <a class="dropdown-item" href="/">Indica</a>
+                                        <a class="dropdown-item" href="/news">Savita</a>
+                                        <a class="dropdown-item" href="/">Others</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/news">Marijuana News</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Marijuana Types</a>
-                                </li>
+                                
                             </ul>
                         </div>
                     </nav>
