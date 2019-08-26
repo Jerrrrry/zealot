@@ -4,7 +4,7 @@
         <img src="{{$article['urlToImage']}}" alt="">
 
     <div class="post-content">
-        <a href="{{$article['url']}}">
+        <a href="{{$article['url']}}" target="_blank">
             <h6>{{$article['title']}}</h6>
         </a>
     </div>
