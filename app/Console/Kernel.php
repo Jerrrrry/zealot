@@ -16,6 +16,7 @@ class Kernel extends ConsoleKernel
         "App\Console\Commands\CacheHua",
         "App\Console\Commands\Twittertest",
         "App\Console\Commands\GenerateSitemap",
+        "App\Console\Commands\Tophuas",
     ];
 
     /**
