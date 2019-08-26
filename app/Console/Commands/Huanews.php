@@ -3,23 +3,22 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use Cache;
 
-class Tophuas extends Command
+class Huanews extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'tophuas';
+    protected $signature = 'command:name';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Generate Top Huas list';
+    protected $description = 'Command description';
 
     /**
      * Create a new command instance.
@@ -38,13 +37,6 @@ class Tophuas extends Command
      */
     public function handle()
     {
-        $huas=Cache::has('all-huas')?Cache::get('all-huas'):[];
-        $results=[];
-        foreach(array_rand($huas, 5) as $index)
-        {
-            $results[]=$huas[$index];
-        }
-        Cache::forever('top-huas',$results);
-        //https://newsapi.org/v2/everything?q=marijuana&apiKey=fa1790410a29459786c4f779b1a1b409
+        //
     }
 }
