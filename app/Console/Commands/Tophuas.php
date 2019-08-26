@@ -45,6 +45,13 @@ class Tophuas extends Command
             $results[]=$huas[$index];
         }
         Cache::forever('top-huas',$results);
+        $articles=Cache::has('mjarticles')?Cache::get('mjarticles'):[];
+        $data=[];
+        foreach(array_rand($articles, 5) as $index)
+        {
+            $data[]=$articles[$index];
+        }
+        Cache::forever('topmjarticles',$data);
         //https://newsapi.org/v2/everything?q=marijuana&apiKey=fa1790410a29459786c4f779b1a1b409
     }
 }
