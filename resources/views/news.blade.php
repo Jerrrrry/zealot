@@ -1,3 +1,6 @@
+@extends('layout.app')
+
+@section('content')
 <!-- ****** Blog Area Start ****** -->
 <section class="blog_area section_padding_0_80">
         <div class="container">
@@ -59,4 +62,5 @@
                 @component('components.sidebar')@endcomponent
             </div>
         </div>
-    </section>
+</section>
+@endsection
