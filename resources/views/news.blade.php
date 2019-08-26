@@ -22,7 +22,7 @@
                                             </div>
                                             <!-- Post Date -->
                                             <div class="post-date">
-                                                <a href="#">{{$article['publishAt']}}</a>
+                                                <a href="#">{{$article['publishedAt']}}</a>
                                             </div>
                                         </div>
                                         <!-- Post Comment & Share Area -->
