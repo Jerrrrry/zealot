@@ -8,7 +8,9 @@
                                         <div class="single-post">
                                             <!-- Post Thumb -->
                                             <div class="post-thumb">
-                                                <img src="/marijuana/images/{{$hua['name']}}.jpg" alt="">
+                                                <a href="/marijuana-data/{{$hua['name']}}">
+                                                 <img src="/marijuana/images/{{$hua['name']}}.jpg" alt="">
+                                                </a>
                                             </div>
                                             <!-- Post Content -->
                                             <div class="post-content">
