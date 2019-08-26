@@ -40,7 +40,7 @@ class Tophuas extends Command
     {
         $huas=Cache::has('all-huas')?Cache::get('all-huas'):[];
         $results=[];
-        foreach(array_rand($huas, 10) as $index)
+        foreach(array_rand($huas, 5) as $index)
         {
             $results[]=$huas[$index];
         }
