@@ -96,7 +96,7 @@
                                 <a href="#">Ideas</a>
                             </div>
 
-                            @component('components.related',['related-huas' => $related-huas])@endcomponent
+                            @component('components.related',['relatedhuas' => $relatedhuas])@endcomponent
 
                             <div class="related-post-area">
                                 <img src="/img/ad-img/sbbanner.jpg"> 

@@ -15,7 +15,7 @@ class HuaController extends Controller
         {
             $results[]=$huas[$index];
         }
-        return view('marijuana',['marijuana'=>Cache::get("hua-$name"),'related-huas'=>$results]);
+        return view('marijuana',['marijuana'=>Cache::get("hua-$name"),'relatedhuas'=>$results]);
     }
 
 }

@@ -3,7 +3,7 @@
                                 <h4 class="mb-30">Related Marijuana Strains</h4>
 
                                 <div class="related-post-slider owl-carousel">
-                                    @foreach($related-huas as $hua)
+                                    @foreach($relatedhuas as $hua)
                                         <!-- Single Related Post-->
                                         <div class="single-post">
                                             <!-- Post Thumb -->
