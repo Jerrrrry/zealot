@@ -11,23 +11,11 @@
                             <div class="collapse navbar-collapse justify-content-center" id="yummyfood-footer-nav">
                                 <ul class="navbar-nav">
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="/news">Marijuana News</a>
+                                        <a class="nav-link" href="single.html">Marijuana Types</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Features</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Categories</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Archive</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
-                                    </li>
+
                                 </ul>
                             </div>
                         </nav>
