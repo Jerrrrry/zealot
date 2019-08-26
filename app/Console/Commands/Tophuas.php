@@ -52,6 +52,9 @@ class Tophuas extends Command
             $data[]=$articles[$index];
         }
         Cache::forever('topmjarticles',$data);
+
+        Cache::forever('newspages',array_chunk($data,20));
+        $this->info(count(Cache::get('newspages')));
         //https://newsapi.org/v2/everything?q=marijuana&apiKey=fa1790410a29459786c4f779b1a1b409
     }
 }
