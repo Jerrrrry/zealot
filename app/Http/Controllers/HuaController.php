@@ -9,11 +9,13 @@ class HuaController extends Controller
 {
     public function hua($name)
     {
-        return view('marijuana',['marijuana'=>Cache::get("hua-$name"),'top-huas'=>Cache::get("top-huas")]);
+        $huas=Cache::has('all-huas')?Cache::get('all-huas'):[];
+        $results=[];
+        foreach(array_rand($huas, 5) as $index)
+        {
+            $results[]=$huas[$index];
+        }
+        return view('marijuana',['marijuana'=>Cache::get("hua-$name"),'related-huas'=>$results]);
     }
 
-    public function test()
-    {
-        return Cache::get('top-huas');
-    }
 }
