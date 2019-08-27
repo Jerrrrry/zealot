@@ -1,4 +1,6 @@
 @extends('layout.app')
+@section('title', $marijuana['data']['Name'])
+@section('keywords', $marijuana['data']['Name'].','.$marijuana['data']['Type'].','.$marijuana['data']['Info'].','.$marijuana['data']['Origins'])
 
 @section('content')
  <!-- ****** Breadcumb Area Start ****** -->

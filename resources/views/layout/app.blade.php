@@ -17,7 +17,11 @@
         <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
         <!-- Title -->
-        <title>Cannabis Zealot</title>
+        <title>@yield('title')|Cannabis Zealot|Marijuana Know How</title>
+        <meta name="description" content="@yield('title')">
+        <meta name="keywords" content="@yield('keywords')">
+        <meta name="DC.title" content="@yield('title')">
+
 
         <!-- Favicon -->
         <link rel="icon" href="/img/core-img/favicon.ico">

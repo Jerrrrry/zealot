@@ -1,5 +1,6 @@
 @extends('layout.app')
-
+@section('title', 'Home|Marijuana Book')
+@section('keywords', 'Marijuana,Cannabis,Weeds,Buds,Cook Book,Marijuana Know How')
 @section('content')
 <!-- ****** Categories Area Start ****** -->
 <section class="categories_area clearfix" id="about">

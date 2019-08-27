@@ -1,5 +1,6 @@
 @extends('layout.app')
-
+@section('title', 'Latest Popular Marijuana News Articles')
+@section('keywords', 'latest,popular,marijuana,cannabis,event,news')
 @section('content')
 <!-- ****** Blog Area Start ****** -->
 <section class="blog_area section_padding_0_80">
