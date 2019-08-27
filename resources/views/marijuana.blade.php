@@ -53,7 +53,7 @@
                             <div class="single-post">
                                 <!-- Post Thumb -->
                                 <div class="post-thumb">
-                                    <img src="/marijuana/images/{{$marijuana['name']}}.jpg" alt="">
+                                    <img src="/marijuana/images/{{$marijuana['name']}}.jpg" alt="{{$marijuana['name']}}">
                                 </div>
                                 <!-- Post Content -->
                                 <div class="post-content">

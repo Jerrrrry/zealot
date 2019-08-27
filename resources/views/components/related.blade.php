@@ -9,7 +9,7 @@
                                             <!-- Post Thumb -->
                                             <div class="post-thumb">
                                                 <a href="/marijuana-data/{{$hua['name']}}">
-                                                 <img src="/marijuana/images/{{$hua['name']}}.jpg" alt="">
+                                                 <img src="/marijuana/images/{{$hua['name']}}.jpg" alt="{{$hua['name']}}">
                                                 </a>
                                             </div>
                                             <!-- Post Content -->
