@@ -74,6 +74,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <h1>Marijuana Name : {{$marijuana['data']['Name']}}</h1> 
                                     <h4>Type : {{$marijuana['data']['Type']}}</h4> 
                                     <h4>{{$marijuana['data']['Info']}}</h4> 
                                     <h4>Origins : {{$marijuana['data']['Origins']}}</h4> 
