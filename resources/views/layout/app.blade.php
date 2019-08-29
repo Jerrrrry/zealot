@@ -1,15 +1,6 @@
 <html>
     <head>
             <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141574056-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-141574056-1');
-        </script>
-
         <meta charset="UTF-8">
         <meta name="description" content="">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,6 +22,16 @@
 
         <!-- Responsive CSS -->
         <link href="/css/responsive/responsive.css" rel="stylesheet">
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141574056-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-141574056-1');
+        </script>
+
 
     </head>
     <body>
