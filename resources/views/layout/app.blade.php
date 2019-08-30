@@ -8,10 +8,10 @@
         <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
         <!-- Title -->
-        <title>@yield('title')|Cannabis Zealot|Marijuana Know How</title>
-        <meta name="description" content="@yield('title')">
+        <title>@yield('title')|Cannabis Zealot|Marijuana Know How|Marijuana Weed Strains</title>
+        <meta name="description" content="@yield('description')">
         <meta name="keywords" content="@yield('keywords')">
-        <meta name="DC.title" content="@yield('title')">
+        <meta name="DC.title" content="@yield('dctitle')">
 
 
         <!-- Favicon -->

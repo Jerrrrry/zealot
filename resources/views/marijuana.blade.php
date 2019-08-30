@@ -1,7 +1,8 @@
 @extends('layout.app')
-@section('title', $marijuana['data']['Name'])
+@section('title', 'Marijuana Stain '.$marijuana['data']['Name'].' What is '.$marijuana['data']['Name'])
 @section('keywords', $marijuana['data']['Name'].','.$marijuana['data']['Type'].','.$marijuana['data']['Info'].','.$marijuana['data']['Origins'])
-
+@section('description',$marijuana['data']['Name'].' is '.$marijuana['data']['Type'].' orgins '.$marijuana['data']['Origins'].' flowering is about'.$marijuana['data']['Flowering'].'. '.$marijuana['data']['Name'].' harvest in '.$marijuana['data']['Harvest'])
+@section('dctitle','Marijuana Stain '.$marijuana['data']['Name'].' What is '.$marijuana['data']['Name'])
 @section('content')
  <!-- ****** Breadcumb Area Start ****** -->
  <div class="breadcumb-area" style="background-image: url(/img/bg-img/mj.jpg);">

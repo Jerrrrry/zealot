@@ -3,7 +3,7 @@
     <div class="single-post wow fadeInUp" data-wow-delay=".8s">
         <!-- Post Thumb -->
         <div class="post-thumb">
-            <a href="/marijuana-data/{{$m['name']}}"><img src="/marijuana/images/{{$m['name']}}.jpg" alt="{{$m['name']}}"></a>
+            <a href="/marijuana-strains/{{$m['name']}}"><img src="/marijuana/images/{{$m['name']}}.jpg" alt="{{$m['name']}}"></a>
         </div>
         <!-- Post Content -->
         <div class="post-content">
@@ -25,7 +25,7 @@
                                             </div>
                 </div>
             </div>
-            <a href="/marijuana-data/{{$m['name']}}">
+            <a href="/marijuana-strains/{{$m['name']}}">
                 <h4 class="post-headline">{{$m['data']['Name']}}</h4>
             </a>
         </div>

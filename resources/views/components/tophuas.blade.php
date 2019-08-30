@@ -4,7 +4,7 @@
         <img src="/marijuana/images/{{$hua['name']}}.jpg" alt="{{$hua['name']}}">
 
     <div class="post-content">
-        <a href="/marijuana-data/{{$hua['name']}}">
+        <a href="/marijuana-strains/{{$hua['name']}}">
             <h6>{{$hua['data']['Name']}}</h6>
         </a>
         <p>{{$hua['data']['Type']}}</p>

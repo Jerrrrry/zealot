@@ -8,7 +8,7 @@
                                         <div class="single-post">
                                             <!-- Post Thumb -->
                                             <div class="post-thumb">
-                                                <a href="/marijuana-data/{{$hua['name']}}">
+                                                <a href="/marijuana-strains/{{$hua['name']}}">
                                                  <img src="/marijuana/images/{{$hua['name']}}.jpg" alt="{{$hua['name']}}">
                                                 </a>
                                             </div>
@@ -26,7 +26,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <a href="/marijuana-data/{{$hua['name']}}">
+                                                <a href="/marijuana-strains/{{$hua['name']}}">
                                                     <h6>{{$hua['data']['Name']}}</h6>
                                                 </a>
                                             </div>

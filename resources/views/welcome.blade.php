@@ -1,6 +1,8 @@
 @extends('layout.app')
-@section('title', 'Home|Marijuana Book')
-@section('keywords', 'Marijuana,Cannabis,Weeds,Buds,Cook Book,Marijuana Know How')
+@section('title', 'Cannabis Zealot, Best information collection of Marijuana')
+@section('keywords', 'cannabis zealot, marijuana, marijuana strains, cannabis, cannabis strains, grow marijuana, marijuana seeds, marijuana news, marijuana laws, marijuana dispensaries')
+@section('description','Collection of marijuana information like cannabis genetics, strain descriptions,latest marijuana related news, cultivation and growing help, medical marijuana research.')
+@section('dctitle','Cannabis Zealot, Best information collection of Marijuana')
 @section('content')
 <!-- ****** Categories Area Start ****** -->
 <section class="categories_area clearfix" id="about">
@@ -88,7 +90,7 @@
                                         <h2 class="post-headline">California’s Underground Market Is Nearly 3 Times Larger Than Legal Market</h2>
                                     </a>
                                     <p>A new report details the highs and lows of California’s cannabis industry since the state launched its adult-use regulations on Jan. 1, 2018.</p>
-                                    <a href="https://cannabisnow.com/californias-underground-market-is-nearly-3-times-larger-than-legal-market/" class="read-more">Continue Reading..</a>
+                                    <a href="https://cannabisnow.com/californias-underground-market-is-nearly-3-times-larger-than-legal-market/" target="_blank" class="read-more">Continue Reading..</a>
                                 </div>
                             </div>
                         </div>
