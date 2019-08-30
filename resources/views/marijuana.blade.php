@@ -82,6 +82,7 @@
                                     <h4>Genetics : {{$marijuana['data']['Genetics']}}</h4> 
                                     <h4>Flowering : {{$marijuana['data']['Flowering']}}</h4> 
                                     <h4>Harvest : {{$marijuana['data']['Harvest']}}</h4> 
+                                    <h4>Potency : {{$marijuana['data']['Potency']}}</h4> 
                                     <blockquote class="yummy-blockquote mt-30 mb-30">
                                         <h5 class="mb-30">“The Hardest Choices Require the Strongest Wills”</h5>
                                         <h6 class="text-muted">Thanos</h6>
