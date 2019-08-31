@@ -28,8 +28,11 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+        $schedule->command('cachehua')->hourly();
+        $schedule->command('mjarticles')->hourly();
+        $schedule->command('tophuas')->hourly();
+        $schedule->command('sitemap')->daily();
+
     }
 
     /**
