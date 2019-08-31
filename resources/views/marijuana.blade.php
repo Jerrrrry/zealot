@@ -96,9 +96,9 @@
 
                             <!-- Tags Area -->
                             <div class="tags-area">
-                                <a href="#">Multipurpose</a>
-                                <a href="#">Design</a>
-                                <a href="#">Ideas</a>
+                                <a href="#">{{$marijuana['data']['Name']}}</a>
+                                <a href="#">{{$marijuana['data']['Type']}}</a>
+                                <a href="#">{{$marijuana['data']['Info']}}</a>
                             </div>
 
                             @component('components.related',['relatedhuas' => $relatedhuas])@endcomponent
