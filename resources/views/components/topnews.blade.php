@@ -1,3 +1,4 @@
+@if(is_array(Cache::get('topmjarticles')) || is_object(Cache::get('topmjarticles')))
 @foreach (Cache::get('topmjarticles') as $article)
 <!-- Single Popular Post -->
 <div class="single-populer-post d-flex">
@@ -10,3 +11,4 @@
     </div>
 </div>
 @endforeach
+@endif

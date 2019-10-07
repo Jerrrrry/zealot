@@ -1,3 +1,4 @@
+@if(is_array(Cache::get('top-huas')) || is_object(Cache::get('top-huas')))
 @foreach (Cache::get('top-huas') as $hua)
 <!-- Single Popular Post -->
 <div class="single-populer-post d-flex">
@@ -12,3 +13,4 @@
     </div>
 </div>
 @endforeach
+@endif
