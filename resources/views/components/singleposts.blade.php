@@ -1,3 +1,4 @@
+@if(is_array($ms) || is_object($ms))
 @foreach ($ms as $m)
 <div class="col-12 col-md-3">
     <div class="single-post wow fadeInUp" data-wow-delay=".8s">
@@ -32,3 +33,4 @@
     </div>
 </div>
 @endforeach
+@endif
