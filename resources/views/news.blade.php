@@ -10,6 +10,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-8">
                     <div class="row">
+                    @if(is_array(Cache::get('mjarticles')) || is_object(Cache::get('mjarticles')))
                         @foreach(Cache::get('mjarticles') as $article)
                         <!-- Single Post -->
                         <div class="col-12">
@@ -57,6 +58,7 @@
                         </div>
 
                         @endforeach
+                    @endif
 
                     </div>
                 </div>
