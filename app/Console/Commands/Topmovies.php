@@ -3,6 +3,8 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Carbon\Carbon;
+use Cache;
 
 class Topmovies extends Command
 {
@@ -54,7 +56,7 @@ class Topmovies extends Command
                 $imageid=$result['featured_media'];
                 $data[]=array(
                 'data'=>$result,
-                'image'=>Helper::featureMediumImage($imageid),
+                'image'=>featureMediumImage($imageid),
                 'date'=>$time->day,
                 'month'=>$time->format('F'),
                 );
