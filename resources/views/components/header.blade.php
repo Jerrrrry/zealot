@@ -28,7 +28,10 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/news">Marijuana News</a>
+                                    <a class="nav-link" href="/news">Movies</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/news">News</a>
                                 </li>
                                 
                             </ul>
