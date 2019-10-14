@@ -19,6 +19,7 @@ class Kernel extends ConsoleKernel
         "App\Console\Commands\Tophuas",
         "App\Console\Commands\Huanews",
         "App\Console\Commands\Topmovies",
+        "App\Console\Commands\Sliders",
     ];
 
     /**
