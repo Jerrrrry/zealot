@@ -52,6 +52,12 @@ class GenerateSitemap extends Command
             ->setPriority(0.8));
             $this->info($hua['name']);
         }
+
+        $site ->add(Url::create('https://www.cannabiszealot.com/news')
+        ->setLastModificationDate(Carbon::now())
+        ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
+        ->setPriority(0.8));
+
         $site->writeToFile('/var/www/html/zealot/public/sitemap.xml');
     }
 }
