@@ -75,22 +75,23 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <h1>Marijuana Name : {{$marijuana['data']['Name']}}</h1> 
-                                    <h4>Type : {{$marijuana['data']['Type']}}</h4> 
-                                    <h4>{{$marijuana['data']['Info']}}</h4> 
-                                    <h4>Origins : {{$marijuana['data']['Origins']}}</h4> 
-                                    <h4>Genetics : {{$marijuana['data']['Genetics']}}</h4> 
-                                    <h4>Flowering : {{$marijuana['data']['Flowering']}}</h4> 
-                                    <h4>Harvest : {{$marijuana['data']['Harvest']}}</h4> 
-                                    <h4>Potency : {{$marijuana['data']['Potency']}}</h4> 
+                                    <h1>Marijuana Name : {{$marijuana['data']['Name']}}</h1>
+                                    <h4>Type : {{$marijuana['data']['Type']}}</h4>
+                                    <h4>{{$marijuana['data']['Info']}}</h4>
+                                    <h4>Origins : {{$marijuana['data']['Origins']}}</h4>
+                                    <h4>Genetics : {{$marijuana['data']['Genetics']}}</h4>
+                                    <h4>Flowering : {{$marijuana['data']['Flowering']}}</h4>
+                                    <h4>Harvest : {{$marijuana['data']['Harvest']}}</h4>
+                                    <h4>Potency : {{$marijuana['data']['Potency']}}</h4>
                                     <blockquote class="yummy-blockquote mt-30 mb-30">
                                         <h5 class="mb-30">“The Hardest Choices Require the Strongest Wills”</h5>
                                         <h6 class="text-muted">Thanos</h6>
                                     </blockquote>
-                                    @foreach($marijuana['data']['Contents'] as $content)
-                                        <p>{{$content}}</p>
-                                    @endforeach
-                
+                                    @if(is_array($marijuana['data']['Contents']) || is_object($marijuana['data']['Contents']))
+                                      @foreach($marijuana['data']['Contents'] as $content)
+                                          <p>{{$content}}</p>
+                                      @endforeach
+                                    @endif
                                 </div>
                             </div>
 
@@ -104,7 +105,7 @@
                             @component('components.related',['relatedhuas' => $relatedhuas])@endcomponent
 
                             <div class="related-post-area">
-                                <img src="/img/ad-img/sbbanner.jpg"> 
+                                <img src="/img/ad-img/sbbanner.jpg">
                             </div>
 
                         </div>
