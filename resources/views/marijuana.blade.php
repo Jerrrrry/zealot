@@ -83,6 +83,18 @@
                                     <h4>Flowering : {{$marijuana['data']['Flowering']}}</h4>
                                     <h4>Harvest : {{$marijuana['data']['Harvest']}}</h4>
                                     <h4>Potency : {{$marijuana['data']['Potency']}}</h4>
+                                    @if(isset($marijuana['data']['Height']))
+                                    <h4>Height : {{$marijuana['data']['Height']}}</h4>
+                                    @endif
+                                    @if(isset($marijuana['data']['THC']))
+                                    <h4>THC : {{$marijuana['data']['THC']}}</h4>
+                                    @endif
+                                    @if(isset($marijuana['data']['Breeder']))
+                                    <h4>Breeder : {{$marijuana['data']['Breeder']}}</h4>
+                                    @endif
+                                    @if(isset($marijuana['data']['Yield']))
+                                    <h4>Yield : {{$marijuana['data']['Yield']}}</h4>
+                                    @endif
                                     <blockquote class="yummy-blockquote mt-30 mb-30">
                                         <h5 class="mb-30">“The Hardest Choices Require the Strongest Wills”</h5>
                                         <h6 class="text-muted">Thanos</h6>
