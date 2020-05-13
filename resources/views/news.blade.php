@@ -52,7 +52,7 @@
                                         <h2 class="post-headline">{{$article['title']}}</h2>
                                     </a>
                                     <p>{{$article['description']}}</p>
-                                    <a href="{{$article['url']}}" class="read-more">Continue Reading..</a>
+                                    <a href="{{$article['url']}}" target="_blank" class="read-more">Continue Reading..</a>
                                 </div>
                             </div>
                         </div>
