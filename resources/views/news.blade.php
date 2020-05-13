@@ -48,7 +48,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="{{$article['url']}}">
+                                    <a href="{{$article['url']}}" target="_blank">
                                         <h2 class="post-headline">{{$article['title']}}</h2>
                                     </a>
                                     <p>{{$article['description']}}</p>
