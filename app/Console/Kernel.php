@@ -18,6 +18,7 @@ class Kernel extends ConsoleKernel
         "App\Console\Commands\GenerateSitemap",
         "App\Console\Commands\Tophuas",
         "App\Console\Commands\Huanews",
+        "App\Console\Commands\Traffic"
     ];
 
     /**
@@ -32,6 +33,7 @@ class Kernel extends ConsoleKernel
         $schedule->command('mjarticles')->hourly();
         $schedule->command('tophuas')->hourly();
         $schedule->command('sitemap')->daily();
+        $schedule->command('traffic')->everyMinute();
 
     }
 
