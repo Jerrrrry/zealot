@@ -10,7 +10,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-8">
                     <div class="row">
-                        {{!!$content!!}}
+                        {!!$content!!}
 
                     </div>
                 </div>
