@@ -8,7 +8,12 @@
 <section class="blog_area section_padding_0_80">
         <div class="container">
             <div class="row justify-content-center">
-                {!!$content!!}
+                <div class="col-12 col-lg-8">
+                    <div class="row">
+                        {!!$content!!}
+
+                    </div>
+                </div>
 
                 <!-- ****** Blog Sidebar ****** -->
                 @component('components.sidebar')@endcomponent
