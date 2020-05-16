@@ -19,8 +19,13 @@ class HuaController extends Controller
     }
 
     public function news()
-    {     
+    {
         return view('news');
+    }
+
+    public function tp()
+    {
+        return view('tp',['content'=>file_get_contents('/var/www/html/zealot/tp/test1.html')]);
     }
 
 }
