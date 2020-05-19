@@ -40,7 +40,7 @@ class Traffic extends Command
     {
       try{
         $api=env('API');
-        $data=json_encode(file_get_contents("https://api.getproxylist.com/proxy?country[]=US&protocol[]=socks4&api=$api"));
+        $data=json_encode(file_get_contents("https://api.getproxylist.com/proxy?country[]=US&protocol[]=socks4&apiKey=$api"));
         $ip=$data['ip'];
         $port=$data['port'];
         $proxy="socks4://$ip:$port";
