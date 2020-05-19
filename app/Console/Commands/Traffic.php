@@ -38,6 +38,16 @@ class Traffic extends Command
      */
     public function handle()
     {
-        shell_exec('node /var/www/html/traffic/basics/get_title.js');
+      try{
+        $api=env('API');
+        $data=json_encode(file_get_contents("https://api.getproxylist.com/proxy?country[]=US&protocol[]=socks4&api=$api"));
+        $ip=$data['ip'];
+        $port=$data['port'];
+        $proxy="socks4://$ip:$port";
+        shell_exec('node /var/www/html/traffic/basics/get_title.js '.$proxy);
+      }catch(\Exception $e){
+        $this->error($e->getMessage());
+      }
+
     }
 }
