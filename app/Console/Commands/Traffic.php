@@ -45,7 +45,7 @@ class Traffic extends Command
         $ip=$data['ip'];
         $port=$data['port'];
         $proxy="socks4://$ip:$port";
-        shell_exec('node /var/www/html/traffic/basics/get_title.js '.$proxy);
+        shell_exec('node /var/www/html/traffic/basics/get_title.js '.$proxy.' >> /dev/null 2>&1');
       }catch(\Exception $e){
         $this->error($e->getMessage());
       }
