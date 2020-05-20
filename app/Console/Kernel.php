@@ -33,7 +33,7 @@ class Kernel extends ConsoleKernel
         $schedule->command('mjarticles')->hourly();
         $schedule->command('tophuas')->hourly();
         $schedule->command('sitemap')->daily();
-        //$schedule->command('traffic')->everyMinute();
+        $schedule->command('traffic')->everyFifteenMinutes();
 
     }
 
