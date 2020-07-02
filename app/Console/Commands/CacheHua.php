@@ -38,7 +38,7 @@ class CacheHua extends Command
      */
     public function handle()
     {
-        $files=scandir('/var/www/html/zealot/public/marijuana/lists/');
+        $files=scandir(public_path().'/marijuana/lists/');
         $results=[];
         foreach($files as $file)
         {
@@ -47,11 +47,11 @@ class CacheHua extends Command
                 $name=explode('.',$file)[0];
                 $results[]=array(
                     'name'=>$name,
-                    'data'=>json_decode(file_get_contents("/var/www/html/zealot/public/marijuana/lists/$file"),true)
+                    'data'=>json_decode(file_get_contents(public_path()."/marijuana/lists/$file"),true)
                 );
                 Cache::forever("hua-$name",array(
                     'name'=>$name,
-                    'data'=>json_decode(file_get_contents("/var/www/html/zealot/public/marijuana/lists/$file"),true)
+                    'data'=>json_decode(file_get_contents(public_path()."/marijuana/lists/$file"),true)
                 ));
             }
         }
