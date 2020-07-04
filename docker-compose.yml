@@ -1,6 +1,6 @@
 version: '3'
 services:
-
+  
   #PHP Service
   app:
     build:
@@ -10,7 +10,7 @@ services:
     container_name: app
     restart: unless-stopped
     tty: true
-    environment:
+    environment: 
       SERVICE_NAME: app
       SERVICE_TAGS: dev
     working_dir: /var/www
@@ -27,7 +27,7 @@ services:
     restart: unless-stopped
     tty: true
     ports:
-      - "80:80"
+      - "8000:80"
       - "443:443"
     volumes:
       - ./:/var/www
