@@ -49,12 +49,12 @@ USER www
 EXPOSE 9000
 
 
-CMD composer install
-CMD php artisan key:generate
-CMD php artisan config:cache
-CMD php artisan tophuas
-CMD php artisan cachehuas
-CMD php artisan mjarticles
-CMD php artisan sitemap
+RUN composer install
+RUN php artisan key:generate
+RUN php artisan config:cache
+RUN php artisan tophuas
+RUN php artisan cachehuas
+RUN php artisan mjarticles
+RUN php artisan sitemap
 
 CMD ["php-fpm"]

@@ -1,0 +1,21 @@
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: zealot-worker
+  labels:
+    app: zealot-worker
+spec:
+  selector:
+    matchLabels:
+      app: zealot-worker
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: zealot-worker
+    spec:
+      containers:
+      - name: master
+        image: yubinqiu1101/zealot-worker  # or just image: redis
+        ports:
+        - containerPort: 80
