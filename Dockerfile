@@ -53,8 +53,8 @@ RUN composer install
 RUN php artisan key:generate
 RUN php artisan config:cache
 RUN php artisan tophuas
-RUN php artisan cachehuas
+RUN php artisan cachehua
 RUN php artisan mjarticles
-RUN php artisan sitemap
+#RUN php artisan sitemap
 
 CMD ["php-fpm"]
